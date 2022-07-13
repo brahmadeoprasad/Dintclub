@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-globaltemp-staging-53612-authRole",
+      "UnauthRoleArn": "arn:aws:iam::566337673663:role/amplify-globaltemp-staging-53612-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::566337673663:role/amplify-globaltemp-staging-53612-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-globaltemp-staging-53612-deployment",
+      "UnauthRoleName": "amplify-globaltemp-staging-53612-unauthRole",
+      "StackName": "amplify-globaltemp-staging-53612",
+      "StackId": "arn:aws:cloudformation:us-east-1:566337673663:stack/amplify-globaltemp-staging-53612/8bfc76f0-fced-11ec-9b6e-0a6c5ed0442d",
+      "AmplifyAppId": "d3m6dh51hsb72f"
+    }
+  },
+  "auth": {
+    "globaltemp6c94b92c": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-globaltemp-staging-53612-deployment/amplify-cfn-templates/auth/globaltemp6c94b92c-cloudformation-template.json",
+        "logicalId": "authglobaltemp6c94b92c"
+      },
+      "lastPushTimeStamp": "2022-07-08T09:54:50.342Z",
+      "output": {
+        "UserPoolId": "us-east-1_AIdS3ZRiS",
+        "AppClientIDWeb": "qtvrcif9dia50mf04qfjgv2aj",
+        "AppClientID": "7er924ci79ba3veh6d5mibj7cr",
+        "IdentityPoolId": "us-east-1:403559e0-0fe9-48be-8ec5-092d54fdbc47",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:566337673663:userpool/us-east-1_AIdS3ZRiS",
+        "IdentityPoolName": "globaltemp6c94b92c_identitypool_6c94b92c__staging",
+        "UserPoolName": "globaltemp6c94b92c_userpool_6c94b92c"
+      },
+      "lastPushDirHash": "QZeMvvhbelsyZQgpGajzGfA8Zmc="
+    }
+  }
+}
